@@ -11,7 +11,7 @@ Gồm:
 | Skill `raspberry-pi` | Cách làm việc với Pi: dò trước, sao lưu, sửa, kiểm bằng ảnh chụp màn hình. Kèm các bẫy đã gặp |
 | `skills/raspberry-pi/scripts/` | Script Python: chạy lệnh có sudo, chép file, chụp mọi màn, xem kiểu đăng nhập VNC, cài khoá SSH |
 | `skills/raspberry-pi/references/` | Ghi chú chi tiết: kết nối, VNC và trang web, màn hình và taskbar, wifi và hệ thống |
-| `pi-screen/` | Trang web xem và điều khiển màn Pi từ trình duyệt (`http://<pi>:6080`) kèm trình cài |
+| `pi-screen/` | *(đang bổ sung)* Trang web xem và điều khiển màn Pi từ trình duyệt (`http://<pi>:6080`) kèm trình cài |
 
 Đã chạy thật trên Pi 4 với Raspberry Pi OS Trixie 64-bit (desktop labwc/Wayland, wayvnc).
 
@@ -66,8 +66,9 @@ Có hai cách:
 
 1. **RealVNC Viewer / RealVNC Connect** (cài trên Windows): gõ `<host>` rồi đăng nhập bằng tài
    khoản Pi. Mã hoá đầy đủ, không cần cấu hình thêm.
-2. **Trình duyệt**: `http://<host>:6080`, dùng trang `pi-screen`. Xem ở phone hay máy khác đều
-   được, có chọn màn, toàn màn hình, đặt thời gian tự tắt màn, khởi động lại Pi. Trang này cần
+2. **Trình duyệt**: `http://<host>:6080`, dùng trang `pi-screen`. Mã nguồn trang đang được bổ
+   sung vào repo. Xem ở phone hay máy khác đều được, có chọn màn, toàn màn hình, đặt thời gian
+   tự tắt màn, khởi động lại Pi. Trang này cần
    thêm `relax_encryption=true` trong `/etc/wayvnc/config`; xem
    [references/vnc-va-trang-web.md](skills/raspberry-pi/references/vnc-va-trang-web.md).
    Chỉ dùng trong mạng nội bộ.

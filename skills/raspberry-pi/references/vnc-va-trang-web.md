@@ -49,7 +49,7 @@ VeNCrypt. Chỉ bật trong mạng nội bộ, và nói rõ điều này với n
 
 ## Trang web pi-screen (cổng 6080)
 
-Mã nguồn và trình cài nằm ở thư mục `pi-screen/` của repo (xem README trong đó). Trên Pi:
+Mã nguồn và trình cài đang được bổ sung vào thư mục `pi-screen/` của repo. Trên Pi đã cài:
 
 | Thứ | Ở đâu |
 |---|---|
