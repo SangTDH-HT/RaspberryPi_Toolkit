@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "raspberry-pi",
+  "version": "1.0.0",
+  "description": "Điều khiển Raspberry Pi (Raspberry Pi OS desktop) từ Windows qua SSH cho Claude Code: chạy lệnh có sudo, chép file, chụp màn hình, VNC (wayvnc) và trang web noVNC, taskbar, tự tắt màn, wifi.",
+  "author": {
+    "name": "Sang"
+  },
+  "repository": "https://github.com/SangTDH-HT/RaspberryPi_Toolkit",
+  "license": "MIT",
+  "keywords": ["raspberry-pi", "ssh", "vnc", "wayvnc", "novnc", "labwc", "wayland"],
+  "skills": "./skills/"
+}

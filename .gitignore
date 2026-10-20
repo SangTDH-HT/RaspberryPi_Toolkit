@@ -1,0 +1,13 @@
+# cấu hình riêng từng máy — không đưa lên git
+pi.json
+*.pem
+*.key
+.env
+
+# ảnh chụp, file tải về khi thử
+pi-shots/
+*.png
+!assets/*.png
+
+__pycache__/
+*.pyc

@@ -1,0 +1,14 @@
+{
+  "name": "raspberrypi-toolkit",
+  "description": "Bộ công cụ Raspberry Pi cho Claude Code.",
+  "owner": {
+    "name": "Sang"
+  },
+  "plugins": [
+    {
+      "name": "raspberry-pi",
+      "source": "./",
+      "description": "Điều khiển Raspberry Pi qua SSH, VNC và trang web xem màn hình."
+    }
+  ]
+}
